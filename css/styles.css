@@ -788,6 +788,10 @@ img {
     width: 18px;
     height: 18px;
 } 
+.close-btn-svg:hover,
+.close-btn-svg:focus {
+    fill: var(--accent-color);
+}
 .is-hidden {
     opacity: 0;
     visibility: hidden;
